@@ -1,0 +1,168 @@
+/* Variables */
+/* Typography */
+$fontText = -apple-system, sans-serif;
+$fontHeading = -apple-system, sans-serif;
+$baseFontSize = 14px;
+/* Colors */
+$gray50 = #fafaf9;
+$gray100 = #f5f5f4;
+$gray200 = #e7e5e4;
+$gray300 = #78716c;
+$gray400 = #575350;
+$gray500 = #010101;
+$accent50 = #fffbeb;
+$accent100 = #fde68a;
+
+/* Style resets */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+figcaption, small {
+    font-size: 0.8rem;
+    color: $gray300;
+}
+
+html, body {
+    box-sizing: border-box;
+    font: $baseFontSize $fontText;
+    color: $gray400;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+ul, ol, dl {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0 0 0 1em;
+    line-height: 150%;
+}
+
+main ul, main ol, main dl {
+    margin-block-end: 1.5rem;
+    margin-block-start: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $fontHeading;
+    color: $gray500;
+    font-weight: 600;
+    letter-spacing: 0.005em;
+}
+
+main, aside, blockquote, pre {
+    padding: 1rem 2rem;
+}
+
+main {
+    max-width: 75ch;
+    padding-bottom: 10rem;
+    flex: 1;
+}
+
+a {
+    color: $gray500;
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    margin-block-end: 1rem;
+    margin-block-start: 1rem;
+    line-height: 150%;
+}
+
+header, header nav ul, footer nav ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+header nav a, footer nav a {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+header nav a:hover, footer nav a:hover {
+    text-decoration: underline;
+}
+
+header, footer {
+    justify-content: space-between;
+    margin: 0 2rem;
+    padding: 1rem 0 1rem 0;
+}
+
+header {
+    border-bottom: solid 1px $gray200;
+}
+
+header h1 {
+    font-size: 1.2rem;
+}
+
+footer {
+    border-top: solid 1px $gray200;
+}
+
+header nav ul, footer nav ul {
+    list-style-type: none;
+}
+
+/* Callouts, Quotes, and Code Blocks */
+aside, blockquote, pre {
+    width: 100%;
+    background-color: $gray100;
+    margin: 2rem 0;
+    overflow-x: scroll;
+}
+
+aside {
+    background-color: $accent50;
+}
+
+code {
+    background-color: $gray100;
+    padding: 2px;
+}
+
+details {
+    border-bottom: solid 1px $gray300;
+    padding: 0.5rem 0;
+}
+
+details > div {
+    padding: 0.5rem;
+    color: $gray300;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0.5rem;
+    border-bottom: solid 1px $gray300;
+}
+
+hr {
+    border-top: solid 0.5px $gray300;
+}
+
+thead {
+    font-weight: 600;
+}
+
+tbody {
+    color: $gray300;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "doughnut.css",
+  "version": "0.0.1",
+  "main": "index.css",
+  "keywords": [
+    "classless",
+    "css framework",
+    "css",
+    "doughnut",
+    "doughtnut.css"
+  ],
+  "author": "Kerim Hudson (https://kerim.sh)",
+  "description": "A lightweight classless CSS framework for simple websites.",
+  "license": "MIT",
+  "devDependencies": {
+    "stylus": "^0.57.0"
+  },
+  "scripts": {
+    "watch": "stylus -w -c index.styl -o index.css",
+    "build": "stylus -c index.styl -o index.css"
+  }
+}
