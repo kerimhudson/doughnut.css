@@ -1,4 +1,4 @@
-![Doughnut.css](/donut.png | width=100)
+![Doughnut.css](/donut.png)
 
 # Doughnut.css
 
