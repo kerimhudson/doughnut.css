@@ -1,4 +1,4 @@
-<img src="https://github.com/kerimhudson/doughnut.css/raw/main/donut.png" width="100" alt="Doughnut.css" />
+<img src="https://github.com/kerimhudson/doughnut.css/raw/main/doughnut.png" width="100" alt="Doughnut.css" />
 
 # Doughnut.css
 
