@@ -1,4 +1,4 @@
-![Doughnut.css](/donut.png)
+<img src="https://github.com/kerimhudson/doughnut.css/raw/main/donut.png" width="100" alt="Doughnut.css" />
 
 # Doughnut.css
 
