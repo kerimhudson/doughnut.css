@@ -21,8 +21,16 @@ This classless framework isn't designed to necessarily be the be all and end-all
 
 ## Why Doughnut?
 
-I was inspired to build this because of an idea known as [Doughnut economics](https://www.kateraworth.com/doughnut/), an idea founded by [Kate Raworth](https://www.kateraworth.com/), which explores the notion of using constraints (a social foundation, and planetary boundaries) as a foundation of the economy in order to create a sustainable, thriving world.
+I was inspired to build this because of an idea known as [Doughnut Economics](https://www.kateraworth.com/doughnut/), an idea founded by [Kate Raworth](https://www.kateraworth.com/), which explores the notion of using constraints (a social foundation, and planetary boundaries) as a foundation of the economy in order to create a sustainable, thriving world.
 
 The idea being to use constraints of the browser, internet, and energy usage but without comprising aesthetics, readability, and enjoyment.
 
 (There's also the added benefit that the name was available on npm).
+
+### Inspiration
+
+- [CSS Variables Performance](https://lisilinhart.info/posts/css-variables-performance/)
+- [Sakura](https://github.com/oxalorg/sakura)
+- [Clean start for the web by Tom MacWright](https://macwright.com/2020/08/22/clean-starts-for-the-web.html)
+- [Doughnut Economics](https://www.kateraworth.com/doughnut/)
+- [Permacomputing](https://wiki.xxiivv.com/site/permacomputing.html)
